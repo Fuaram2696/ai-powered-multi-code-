@@ -1,0 +1,8 @@
+.env
+code_converter.db
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+dist/
+.vscode/
