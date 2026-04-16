@@ -49,7 +49,7 @@ const Auth = ({ onLogin }) => {
                     setTimeout(() => {
                         setIsLogin(true);
                         setSuccess('');
-                    }, 2000);
+                    }, 500);
                 } else {
                     setError(data.detail || 'Registration failed');
                 }
